@@ -1,0 +1,31 @@
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  align-self: flex-end;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  padding-top: 35px;
+}
+  
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  align-self: flex-start;
+  font-size: 2rem;
+  padding-top: 38px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.rightArrow:hover {
+  color: #F5F9F7;
+  transform: translateX(2px);
+}
+
+.leftArrow:hover {
+  color: #F5F9F7;
+  transform: translateX(-2px);
+}
+
