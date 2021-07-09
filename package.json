@@ -2,7 +2,7 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://steveseelan.github.io/Steve-Seelan/",
+  "homepage": "https://steveseelan.com/",
   "dependencies": {
     "@babel/core": "^7.14.6",
     "@styled-icons/boxicons-logos": "^10.34.0",
