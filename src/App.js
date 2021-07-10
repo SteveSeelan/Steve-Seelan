@@ -8,16 +8,17 @@ import { ProjectData } from './Components/Projects/ProjectElements';
 import Contact from './Components/Contact/Contact';
 
 const App = () => {
-
   return (
     <Container>
       <Navbar />
-      <Home />
-      <AboutMe name="about-me"/>
-      <Slider slides={ProjectData}/>
-      <Contact />     
+      <main style={{ overflow: 'hidden' }}>
+        <Home />
+        <AboutMe name="about-me" />
+        <Slider slides={ProjectData} />
+        <Contact />
+      </main>
     </Container>
-  )
-}
+  );
+};
 
-export default App
+export default App;
