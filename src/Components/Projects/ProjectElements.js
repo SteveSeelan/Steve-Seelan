@@ -19,8 +19,9 @@ export const ProjectTitle = styled.div`
     font-family: 'Inconsolata', monospace;
     color: #E3535B; //7C8B87 EED5A5
     font-size: 1.75rem;
-    padding: 75px 105px 25px;
+    padding: 55px 105px 25px;
     justify-self: center;
+    max-width: 600px;
 
     @media (max-width: 868px) {
         font-size: .9rem;
@@ -32,19 +33,13 @@ export const ProjectDescription = styled.div`
     color: #FAE9FF; //7C8B87 EED5A5
     font-size: 1.15rem;
     font-weight: 300;
-    padding: 15px 5px 25px;
+    padding: 5px 5px 5px;
+    max-width: 600px;
 
     @media (max-width: 868px) {
         font-size: .9rem;
     }
 `;
-
-const getWidthString = (span) => {
-    if(!span) return;
-
-    let width = span / 12 * 100;
-    return `width: ${width}%;`;
-}
 
 export const SliderContainer = styled.div`
     font-family: 'Inconsolata', monospace;
@@ -53,19 +48,16 @@ export const SliderContainer = styled.div`
     font-weight: 500;
     position: relative;
     //padding: 25px 15px;
-    padding-top: 150px;
-    margin: 125px auto 225px;
-    width: 100%;
+    padding-top: 50px;
+    margin: 125px auto 25px;
+    max-width: 868px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.03), 0 0px 40px rgba(0, 0, 0, 0.06);
 
-    @media only screen and (max-width: 768px) {
-        ${getWidthString(12)}
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+    @media only screen and (max-width: 568px) {
+        font-size: 2.9rem;
     }
 `;

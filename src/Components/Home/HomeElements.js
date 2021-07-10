@@ -104,10 +104,10 @@ const CustomBtn = styled.button`
     font-family: 'Inconsolata', monospace;
     color: #E3535B;
     font-size: 1.05rem;
-    margin: 40px 6px 20px;
+    margin: 40px 20px 20px;
     padding: 1em 1em;
     border: 1.5px solid #E3535B;
-    border-radius: 5%;
+    border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
     position: relative;
