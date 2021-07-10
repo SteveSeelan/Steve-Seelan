@@ -41,7 +41,7 @@ const HomeContainer = styled.div`
     @media only screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        ${getWidthString(10)};
     }
 `;
 
@@ -59,7 +59,7 @@ const HomeTitle = styled.div`
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 5.0rem;
+        font-size: 4.5rem;
     }
 `;
 
@@ -67,17 +67,23 @@ const HomeCaption = styled.div`
     display: flex;
     flex-direction: row;
     color: #C8908A; //F3F6F4 BDB8D7
-    padding: 10px;
+    padding: 12px;
     font-family: 'Inconsolata', monospace;
     font-weight: 400;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     position: relative;
 
     @media only screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
         width: 100%;
-        font-size: 3.0rem;
+        font-size: 1.8rem;
+    }
+    @media only screen and (max-width: 368px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 1.3rem;
     }
 `;
 
