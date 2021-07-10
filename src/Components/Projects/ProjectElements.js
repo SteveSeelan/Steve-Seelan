@@ -21,6 +21,10 @@ export const ProjectTitle = styled.div`
     font-size: 1.75rem;
     padding: 75px 105px 25px;
     justify-self: center;
+
+    @media (max-width: 868px) {
+        font-size: .9rem;
+    }
 `;
 
 export const ProjectDescription = styled.div`
@@ -29,6 +33,10 @@ export const ProjectDescription = styled.div`
     font-size: 1.15rem;
     font-weight: 300;
     padding: 15px 5px 25px;
+
+    @media (max-width: 868px) {
+        font-size: .9rem;
+    }
 `;
 
 const getWidthString = (span) => {
@@ -44,19 +52,20 @@ export const SliderContainer = styled.div`
     font-size: 4.75rem;
     font-weight: 500;
     position: relative;
-    padding: 25px 15px;
+    //padding: 25px 15px;
     padding-top: 150px;
     margin: 125px auto 225px;
-    width: 1000px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.03), 0 0px 40px rgba(0, 0, 0, 0.06);
 
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (max-width: 768px) {
         ${getWidthString(12)}
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 `;

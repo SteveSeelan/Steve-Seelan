@@ -8,7 +8,7 @@ const Contact = () => {
         <ContactContainer id="Contact">
             <ContactTitle>Contact</ContactTitle>
             <IconContainer>
-                <a href="https://github.com/Snseelan19" target="blank"><GithubIcon /></a>
+                <a href="https://github.com/SteveSeelan" target="blank"><GithubIcon /></a>
                 <a href="https://www.instagram.com/snseelan19/" target="blank"><InstaIcon /></a>
                 <a href="mailto:snseelan1@gmail.com"><EmailIcon /></a>
                 <a href="https://www.linkedin.com/in/steve-seelan" target="blank"><LinkedinIcon /></a>

@@ -17,18 +17,43 @@ const iconStyle = {
 
 export const EmailIcon = styled(Envelope)`
     ${iconStyle}
+    @media (max-width: 868px) {
+        height: 25px;
+        width: auto;
+        padding: 20px 6px 0px;
+    }
 `;
 export const GithubIcon = styled(Github)`
     ${iconStyle}
+    @media (max-width: 868px) {
+        height: 25px;
+        width: auto;
+        padding: 20px 6px 0px;
+    }
 `;
 export const FacebookIcon = styled(FacebookSquare)`
     ${iconStyle}
+    @media (max-width: 868px) {
+        height: 25px;
+        width: auto;
+        padding: 20px 6px 0px;
+    }
 `;
 export const InstaIcon = styled(Instagram)`
     ${iconStyle}
+    @media (max-width: 868px) {
+        height: 25px;
+        width: auto;
+        padding: 20px 6px 0px;
+    }
 `;
 export const LinkedinIcon = styled(Linkedin)`
     ${iconStyle}
+    @media (max-width: 868px) {
+        height: 25px;
+        width: auto;
+        padding: 20px 6px 0px;
+    }
 `;
 export const HeartIcon = styled(Heart)`
     width: auto;
@@ -36,6 +61,8 @@ export const HeartIcon = styled(Heart)`
 `;
 
 export const IconContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     padding: 45px 55px 25px;
 `;
@@ -55,17 +82,19 @@ export const ContactContainer = styled.div`
     //padding: 0 0 60px;
     //margin: 228px auto 0;
     padding-bottom: 200px;
-    width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     //box-shadow: 0 0 20px rgba(0, 0, 0, 0.03), 0 0px 40px rgba(0, 0, 0, 0.06);
 
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (max-width: 768px) {
         ${getWidthString(12)}
         display: flex;
         flex-direction: column;
+        margin: 325px auto 350px;
+        padding-bottom: 100px;
     }
 `;
 
@@ -85,14 +114,25 @@ export const MadeBy = styled.div`
     font-weight: 300;
     flex-direction: row;
     justify-self: center;
+
+    @media (max-width: 868px) {
+        font-size: .9rem;
+        padding-top: 15px;
+    }
 `;
 
 export const License = styled.div`
+    display: flex;
+    flex-wrap: wrap;
     text-decoration: none;
     padding-top: 50px;     
     font-family: 'Inconsolata', monospace;
     color: #FAE9FF;
     font-size: 1.2rem;
     font-weight: 300;
-    justify-self: center;
+    align-self: center;
+
+    @media (max-width: 868px) {
+        font-size: .9rem;
+    }
 `;

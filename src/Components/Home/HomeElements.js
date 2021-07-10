@@ -17,6 +17,13 @@ const HomeDiv = styled.div`
     flex-direction: column;
     min-height: 100vh;
     padding: 0px;
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+    }
 `;
 
 const HomeContainer = styled.div`
@@ -29,7 +36,13 @@ const HomeContainer = styled.div`
 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05), 0 0px 40px rgba(0, 0, 0, 0.06);
     
-    ${({ xs }) => (xs ? getWidthString(xs) : "width: 1600px;")};
+    ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%;")};
+
+    @media only screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 `;
 
 const HomeTitle = styled.div`
@@ -38,10 +51,16 @@ const HomeTitle = styled.div`
     color: #E3535B; //F3F6F4 BDB8D7
     padding: 10px 10px 0px 10px;
     font-family: 'Inconsolata', monospace;
-    font-weight: 500;
-    font-size: 8.5rem;
-    justify-self: center;
+    font-weight: 600;
+    font-size: 7.0rem;
     left: 40%;
+
+    @media only screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 5.0rem;
+    }
 `;
 
 const HomeCaption = styled.div`
@@ -51,8 +70,15 @@ const HomeCaption = styled.div`
     padding: 10px;
     font-family: 'Inconsolata', monospace;
     font-weight: 400;
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     position: relative;
+
+    @media only screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 3.0rem;
+    }
 `;
 
 const Description = styled.div`
@@ -62,12 +88,21 @@ const Description = styled.div`
     font-weight: 300;
     font-size: 1.25rem;
     position: relative;
+    max-width: 50vh;
+
+    @media only screen and (max-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 80%;
+        font-size: .9rem;
+    }
 `;
 
 const CustomBtn = styled.button`
+    align-self: flex-start;
     font-family: 'Inconsolata', monospace;
     color: #E3535B;
-    align-self: flex-start;
     font-size: 1.05rem;
     margin: 40px 6px 20px;
     padding: 1em 1em;
@@ -81,6 +116,14 @@ const CustomBtn = styled.button`
     &:hover {
         background: rgba(227, 83, 91, .05);
         transform: translateY(1px);
+    }
+
+    @media only screen and (max-width: 768px) {
+        align-self: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: .85rem;
     }
 `;
 

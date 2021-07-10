@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Nav = styled.div` 
     z-index: 5;
-    overflow: hidden;
+    //overflow: hidden;
     //padding-right: 20px;
     width: 100%;
     position: fixed;
@@ -22,8 +22,8 @@ const Menu = styled.div`
 
     @media (max-width: 768px) {
         overflow: hidden;
-        flex-direction: column;
         width: 100%;
+        flex-direction: column;
         max-height: ${({ isOpen }) => (isOpen ? '300px' : '0')};
         transition: max-height 0.2s ease-in;
     }
@@ -44,7 +44,6 @@ const Hamburger = styled.div`
     @media (max-width: 768px) {
         display: flex;
     }
-
 `;
 
 
