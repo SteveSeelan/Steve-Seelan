@@ -77,7 +77,7 @@ const getWidthString = (span) => {
 export const ContactContainer = styled.div`
     justify-self: center;
     flex-direction: column;
-    margin: 725px auto 350px;
+    margin: 625px auto 0px;
     //border-radius: 10%;
     //padding: 0 0 60px;
     //margin: 228px auto 0;
@@ -93,7 +93,7 @@ export const ContactContainer = styled.div`
         ${getWidthString(12)}
         display: flex;
         flex-direction: column;
-        margin: 325px auto 350px;
+        margin: 325px auto 0px;
         padding-bottom: 100px;
     }
 `;
@@ -107,7 +107,7 @@ export const ContactTitle = styled.div`
 `;
 
 export const MadeBy = styled.div`
-    padding-top: 150px;
+    padding-top: 100px;
     font-family: 'Inconsolata', monospace;
     color: #FAE9FF;
     font-size: 1.2rem;
