@@ -1,6 +1,7 @@
 import React from 'react'
 import { ContactContainer, ContactTitle, IconContainer,
     GithubIcon, InstaIcon, LinkedinIcon, FacebookIcon, EmailIcon, MadeBy, HeartIcon, License } from './ContactElements'
+import "./link.css";
 
 const Contact = () => {
 
@@ -15,7 +16,7 @@ const Contact = () => {
                 <a href="https://www.facebook.com/steven.robinson.14811" target="blank"><FacebookIcon /></a>
             </IconContainer>
             <MadeBy>Made by Steve Seelan with <HeartIcon /></MadeBy>
-            <License>Icons made by <a href="https://www.freepik.com" title="Freepik" target="blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="blank">www.flaticon.com</a></License>
+            <License>Icons made by <a className="link" href="https://www.freepik.com" title="Freepik" target="blank">Freepik</a> from <a className="link" href="https://www.flaticon.com/" title="Flaticon" target="blank">www.flaticon.com</a></License>
             <License>MIT License</License>
         </ContactContainer>
     )

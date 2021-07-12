@@ -124,6 +124,12 @@ const CustomBtn = styled.button`
         transform: translateY(1px);
     }
 
+    &:active {
+        transform: translateY(-1px);
+        border-bottom: 1px solid #F5F9F7;
+        cursor: pointer;
+    }
+
     @media only screen and (max-width: 768px) {
         align-self: flex-start;
         display: flex;

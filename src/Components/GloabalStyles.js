@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 const Container = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     //overflow: auto;
     //margin-top: -205px;
     //options #BB3A68 #F5F9F7 #231621 #E3535B FAE9FF

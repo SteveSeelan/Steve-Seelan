@@ -52,7 +52,7 @@ const AboutSection = styled.div`
     align-items: flex-start;
     min-height: 100vh;
     padding: 0px;
-    margin: 225px auto 55px;
+    margin: 125px auto 125px;
 
     @media (max-width: 968px) {
         overflow: hidden;

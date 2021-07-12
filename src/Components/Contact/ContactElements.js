@@ -12,6 +12,11 @@ const iconStyle = {
     '&:hover': {
         color: '#FAE9FF',
         transform: 'translateY(3px)'
+    },
+
+    '&:active': {
+        transform: 'translateY(-1px)',
+        cursor: 'pointer',
     }
 }
 
@@ -77,11 +82,12 @@ const getWidthString = (span) => {
 export const ContactContainer = styled.div`
     justify-self: center;
     flex-direction: column;
-    margin: 625px auto 0px;
+    margin: 0px auto 125px;
     //border-radius: 10%;
     //padding: 0 0 60px;
     //margin: 228px auto 0;
-    padding-bottom: 200px;
+    //padding-bottom: 200px;
+    min-height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -93,7 +99,7 @@ export const ContactContainer = styled.div`
         ${getWidthString(12)}
         display: flex;
         flex-direction: column;
-        margin: 325px auto 0px;
+        margin: 0px auto 0px;
         padding-bottom: 100px;
     }
 `;
@@ -104,6 +110,10 @@ export const ContactTitle = styled.div`
     font-size: 5.5rem;
     font-weight: 600;
     justify-self: center;
+
+    @media (max-width: 868px) {
+        font-size: 3.1rem;
+    }
 `;
 
 export const MadeBy = styled.div`
@@ -121,7 +131,7 @@ export const MadeBy = styled.div`
     }
 `;
 
-export const License = styled.div`
+export const License = styled.pre`
     display: flex;
     flex-wrap: wrap;
     text-decoration: none;

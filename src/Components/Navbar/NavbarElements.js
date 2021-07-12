@@ -66,6 +66,12 @@ const MenuLinks = styled.div`
         color: #F5F9F7;
         transform: translateY(3px);
     }
+
+    &:active {
+        transform: translateY(-1px);
+        border-bottom: 1px solid #F5F9F7;
+        cursor: pointer;
+    }
 `;
 
 export {
