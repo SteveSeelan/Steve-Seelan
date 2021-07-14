@@ -5,15 +5,18 @@ export const ProjectData = [
     {
         title: "Covid-19 Entry System",
         description: "Senior Design project aimed to ensure saftey in buildings. Developed student portal website that records students' Covid-19 tests in database, which is used to allow/deny entry to campus buildings.",
-        link: "https://engineering.purdue.edu/477grp13/Portal/index.html"
+        link: "https://engineering.purdue.edu/477grp13/Portal/index.html",
+        tools: "React JavaScript CSS"
     },
     {
-        title: "Project 2",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt sem a egestas sodales. Mauris nec efficitur lorem, eu luctus velit."
+        title: "Morning Inspiration",
+        description: "Automatically sends a random inspirational quote to your phone at a scheduled time every day",
+        link: "https://github.com/SteveSeelan/Morning-Inspiration",
+        tools: "Python"
     },
     {
         title: "Project 3",
-        description: "Ut a est ut diam aliquam efficitur ut id turpis. Donec mauris nibh, accumsan non enim eget, maximus facilisis nisl. Nulla pellentesque feugiat enim, quis posuere est lobortis quis."
+        description: "In the works..."
     },
 ];
 
@@ -63,7 +66,18 @@ export const ProjectDescription = styled.div`
     }
 `;
 
+export const ProjectTools = styled.div`
+    font-family: 'Inconsolata', monospace;
+    color: #C8908A; //7C8B87 EED5A5
+    font-size: 1.05rem;
+    padding: 15px 5px 5px;
+    justify-self: center;
+    max-width: 600px;
 
+    @media (max-width: 868px) {
+        font-size: .8rem;
+    }
+`;
 
 export const ProjectsContainer = styled.div`
     min-height: 100vh;

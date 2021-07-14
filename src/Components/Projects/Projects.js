@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import { FolderIcon, ProjectData, ProjectTitle, ProjectDescription, CardsContainer, Cards, ProjectsContainer  } from './ProjectElements';
+import { FolderIcon, ProjectData, ProjectTitle, ProjectDescription, ProjectTools, CardsContainer, Cards, ProjectsContainer  } from './ProjectElements';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
@@ -17,6 +17,7 @@ const ProjectSection = () => {
                 <FolderIcon />
                 <ProjectTitle>{data.title}</ProjectTitle>
                 <ProjectDescription>{data.description}</ProjectDescription>
+                <ProjectTools>{data.tools}</ProjectTools>
             </Cards>
         );
     }
