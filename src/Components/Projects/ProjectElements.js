@@ -6,7 +6,7 @@ export const ProjectData = [
         title: "Covid-19 Entry System",
         description: "Senior Design project aimed to ensure saftey in buildings. Developed student portal website that records students' Covid-19 tests in database, which is used to allow/deny entry to campus buildings.",
         link: "https://engineering.purdue.edu/477grp13/Portal/index.html",
-        tools: "React JavaScript CSS"
+        tools: "React JavaScript CSS Firebase"
     },
     {
         title: "Morning Inspiration",
