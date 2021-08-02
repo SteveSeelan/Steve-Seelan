@@ -47,7 +47,7 @@ const Hamburger = styled.div`
 `;
 
 
-const MenuLinks = styled.div`
+const MenuLinks = styled.h1`
     font-family: 'Inconsolata', monospace;
     padding: 1rem 2rem;
     cursor: pointer;
