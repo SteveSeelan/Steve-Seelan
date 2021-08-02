@@ -98,7 +98,7 @@ const AboutContainer = styled.div`
     } 
 `;
 
-const AboutTitle = styled.div`
+const AboutTitle = styled.h3`
     font-family: 'Inconsolata', monospace;
     color: #E3535B; //7C8B87 EED5A5
     font-size: 1.75rem;

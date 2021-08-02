@@ -40,13 +40,14 @@ export const FolderIcon = styled(Folder)`
     }
 `;
 
-export const ProjectTitle = styled.div`
+export const ProjectTitle = styled.h4`
     font-family: 'Inconsolata', monospace;
     color: #E3535B; //7C8B87 EED5A5
     font-size: 1.75rem;
     padding: 25px 10px 25px;
     justify-self: center;
     max-width: 600px;
+    font-weight: 500px;
 
     @media (max-width: 868px) {
         font-size: 1.2rem;

@@ -104,7 +104,7 @@ export const ContactContainer = styled.div`
     }
 `;
 
-export const ContactTitle = styled.div`
+export const ContactTitle = styled.h2`
     font-family: 'Inconsolata', monospace;
     color: #E3535B; //7C8B87 EED5A5
     font-size: 5.5rem;

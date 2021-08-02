@@ -45,7 +45,7 @@ const HomeContainer = styled.div`
     }
 `;
 
-const HomeTitle = styled.div`
+const HomeTitle = styled.h1`
     display: flex;
     flex-direction: row;
     color: #E3535B; //F3F6F4 BDB8D7
@@ -87,7 +87,7 @@ const HomeCaption = styled.div`
     }
 `;
 
-const Description = styled.div`
+const Description = styled.h3`
     color: #FAE9FF;
     padding-left: 15px;
     font-family: 'Inconsolata', monospace;
