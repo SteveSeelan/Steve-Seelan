@@ -21,7 +21,7 @@ const Home = () => {
                                 wrapper="div"
                                 steps={["Software Engineer.", 800, 'Full-Stack Developer.', 800, 'Purdue Grad.', 800, 'Soccer Fanatic.', 800]}
                             /></HomeCaption>
-                <Description>I'm a San Francisco based software engineer who enjoys the server side as well as full stack development.</Description>   
+                <Description>I'm a San Francisco based software engineer mostly doing full stack development.</Description>   
             <CustomBtn as='a' href="mailto:snseelan1@gmail.com">Get in Touch</CustomBtn> 
             </HomeContainer>
         </HomeDiv> 
