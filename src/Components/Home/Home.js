@@ -19,7 +19,7 @@ const Home = () => {
                             <Typical 
                                 loop={Infinity}
                                 wrapper="div"
-                                steps={["Software Engineer.", 800, 'Full-Stack Developer.', 800, 'Purdue Grad.', 800, 'Soccer Fanatic.', 800]}
+                                steps={["Software Engineer.", 800, 'Purdue Grad.', 800, 'Soccer Fanatic.', 800]}
                             /></HomeCaption>
                 <Description>I'm a San Francisco based software engineer mostly doing full stack development.</Description>   
             <CustomBtn as='a' href="mailto:snseelan1@gmail.com">Get in Touch</CustomBtn> 
