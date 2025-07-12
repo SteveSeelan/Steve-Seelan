@@ -3,8 +3,20 @@ import { Folder } from "@styled-icons/boxicons-regular";
 
 export const ProjectData = [
     {
+        title: "AI-Alexa-Skill",
+        description: "AI integration into Alexa using AWS Lambda and Gemini",
+        link: "https://github.com/SteveSeelan/AI-Alexa-Skill",
+        tools: "Python, AWS Lambda, Gemini, Alexa Skills Kit"
+    },
+    {
+        title: "CCC-ai-guide",
+        description: "AI chatbot that uses RAG to answer questions about the Catholic Faith, will be extended to all religions...",
+        link: "https://github.com/SteveSeelan/CCC-ai-guide",
+        tools: "Python, Ollama, RAG, Llama"
+    },
+    {
         title: "Covid-19 Entry System",
-        description: "Senior Design project aimed to ensure saftey in buildings. Developed student portal website that records students' Covid-19 tests in database, which is used to allow/deny entry to campus buildings.",
+        description: "Purdue capstone project aimed to ensure saftey in buildings. Developed student portal website that records students' Covid-19 tests in database, which is used to allow/deny entry to campus buildings.",
         link: "https://engineering.purdue.edu/477grp13/Portal/index.html",
         tools: "React JavaScript CSS Firebase"
     },
@@ -13,10 +25,6 @@ export const ProjectData = [
         description: "Automatically sends a random inspirational quote to your phone at a scheduled time every day",
         link: "https://github.com/SteveSeelan/Morning-Inspiration",
         tools: "Python"
-    },
-    {
-        title: "Project 3",
-        description: "In the works..."
     },
 ];
 
